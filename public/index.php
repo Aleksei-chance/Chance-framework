@@ -8,6 +8,6 @@ use Core\Application;
 
 $app = new Application();
 
-dump($app);
+//dump($app);
 $app->run();
 

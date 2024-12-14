@@ -24,7 +24,7 @@ class View
         }
         else
         {
-//            abort("Not found view {$view_file}", 500);
+            abort("Not found view {$view_file}", 500);
         }
 
         if($layout === false)
@@ -42,7 +42,7 @@ class View
         }
         else
         {
-//            abort("Not found layout {$layout_file}", 500);
+            abort("Not found layout {$layout_file}", 500);
         }
         return '';
     }

@@ -58,7 +58,7 @@ class Router
         $route = $this->matchRoute($path);
         if ($route === false) {
             $this->response->setResponseCode(404);
-//            abort();
+            abort();
             die;
         }
         if (is_array($route['callback'])) {
