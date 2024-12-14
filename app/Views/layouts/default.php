@@ -7,22 +7,14 @@
             maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Off Group</title>
-    <link rel="stylesheet" href="<?= base_url('/css/style.css') ?>">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="<?= base_url('/js/jquery-3.7.1.min.js') ?>"></script>
-    <script src="<?= base_url('/js/script.js') ?>"></script>
+    <link href="<?= base_url('/assets/bootstrap/css/bootstrap.min.css') ?>" rel="stylesheet">
+
 </head>
 <body>
 <div class="content" style="margin-top: 50px;">
-    <?= $this->view; ?>
-</div>
-
-
-<div id="modal">
 
 </div>
-<div id="modal_g"></div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="<?= base_url('/assets/bootstrap/js/bootstrap.bundle.min.js') ?>"></script>
 </body>
 </html>
