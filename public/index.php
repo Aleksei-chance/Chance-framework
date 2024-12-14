@@ -9,3 +9,5 @@ use Core\Application;
 $app = new Application();
 
 dump($app);
+$app->run();
+
