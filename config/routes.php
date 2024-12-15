@@ -1,6 +1,6 @@
 <?php
 /** @var Core\Application $app */
 
-$app->router->get('/', function () {
-    return view('testView');
-});
+use App\Controllers\HomeController;
+
+$app->router->get('/', [HomeController::class, 'index']);
